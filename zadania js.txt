@@ -1,0 +1,64 @@
+        //zad 1
+        let imie = 'Kacper';
+        console.log(imie);
+
+
+    //zad 2
+    let wiek = 15;
+    wiek++;
+    console.log(wiek);
+
+    //zad 3
+    let a = 30;
+    let b = 5;
+    console.log(a + b );
+    console.log(a - b );
+    console.log(a / b );
+    console.log(a * b );
+    
+    //zad 4
+    let t = true;
+    t = !t;
+    console.log(t);
+
+
+    //zad 1 pdf 3
+    let cena = 79;
+    let podatek = 23;
+    console.log(cena + cena*podatek/100)
+
+//zad 2
+let nazwa = 'eee'
+console.log(typeof imie);
+//zad 3
+let q = 3;
+let w = 2;
+let status = ( q >= w) ? "a jest wieksze od b" : "a nie jest wieksze od b"
+console.log(status)
+//zad 4
+function pole(a) {
+    return a * a ;
+    
+}
+console.log(pole (5))
+//zad 5
+function sprawdze(a) {
+    a = a % 2;
+
+    if( a == 0 ) {
+        return "liczba jest parzysta"
+    }
+    else {
+        return "Liczba nie jest parzysta"
+    }
+}
+console.log(sprawdze (3))
+//zad 6
+const name = name => `witaj ${name}`;
+
+console.log(name('Kamil'))
+//zad 7
+
+//zad 8
+
+//zad 9
